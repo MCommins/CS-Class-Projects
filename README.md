@@ -1,2 +1,2 @@
 # CS-Class-Projects
-Assigned projects from pat Computer Science Classes
+Assigned projects from past Computer Science Classes
