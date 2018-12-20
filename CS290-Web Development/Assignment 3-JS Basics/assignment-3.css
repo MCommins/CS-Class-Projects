@@ -1,0 +1,159 @@
+
+h1 {
+	text-align: left;
+	font-family: Arial;
+	letter-spacing: 2px;
+	color: white;
+}
+
+span {
+	color: blue;
+	text-decoration: underline;
+}
+
+body {
+	background: url(https://image.freepik.com/free-photo/white-stone-texture_1194-5428.jpg);
+}
+
+header {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	background: url('http://7summitsproject.com/wp-content/uploads/2016/02/banner-931.jpg') no-repeat center;
+	background-size: fill;
+
+
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	background-color: lavender;
+	font-color: white;
+
+}
+
+#footerDiv {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	box-shadow: 10px 5px 5px grey;
+}
+
+#roundImage {
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 25%;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	margin-right: 1%;
+	box-shadow: 5px 0px 5px 0px;
+}
+
+
+#list {
+	text-align: left;
+}
+
+#textBody {
+	top: 50px;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-bottom: 50px;
+	width: 75%;
+	min-height: 1000px;
+	box-shadow: 10px 5px 5px grey;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-color: green;
+}
+
+#tileDiv {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#textEditForm {
+	position: inherit;
+	display: block;
+	width: 750px;
+	height: 200px;
+}
+
+/*Dropdown Menu Stuff*/
+#navbar {
+	list-style-type: none;
+	padding: 31px 0px 0px 300px;;
+	margin: 0px;
+	font-family: times;
+	text-align: center;
+	text-decoration: none;
+	z-index:1;
+}
+
+ul#navbar {
+		position: fixed;
+}
+
+ul#navbar li {
+	list-style-type: none;
+	width: 200px;
+	position: relative;
+	float: left;
+}
+
+ul#navbar a {
+	text-decoration: none;
+	display: block;
+	width: 200px;
+	height: 25px;
+	line-height: 25px;
+	background-color: lightblue;
+	color: black;
+	border: solid green 2px;
+}
+
+ul#navbar li:hover > a {
+	background-color: blue;
+	color:white;
+}
+
+ul#navbar ul.dropdown {
+	position: absolute;
+	display: none;
+	right: 0px;
+}
+
+ul#navbar li:hover ul.dropdown {
+	display: block;
+}
+
+.tileP {
+	margin-top: 0%;
+	margin-left: 90%;
+	font-size: 1.5em;
+}
+
+.tile {
+	width: 200px;
+	height: 200px;
+	border: solid;
+	border-width: 5px;
+	border-color: black;
+	display: inline-block;
+	margin: 5%;
+	text-align: center;
+	background: linear-gradient(to bottom right, white, rgb(170, 143, 193));
+}
+
+.tileI {
+	height: 100px;
+	width: 100px;
+}

@@ -1,0 +1,10 @@
+figure img{
+	float:left;
+}
+footer{
+	bottom:20px;
+	clear:both;
+}
+p{
+	text-indent:15px;
+}

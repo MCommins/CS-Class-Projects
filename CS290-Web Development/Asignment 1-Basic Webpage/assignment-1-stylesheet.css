@@ -1,0 +1,16 @@
+html{
+	background-color: lightyellow;
+}
+
+h1, footer, figcaption{
+	text-align: center;
+	font-family: Arial;
+}
+table{
+	margin: 0 auto;
+}
+
+img{
+	width: 20vw;
+	height: 20vh;
+}
