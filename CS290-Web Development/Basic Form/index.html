@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>basic html page for cs 290</title>
+	<link href="main-stylesheet.css" rel="stylesheet" type="text/css"/>
+	<script src='main-js.js'> </script>
+</head>
+<body style="background-color: lightyellow;">
+	<header style="text-align: center;background-color: red">
+		CS290 - Developing Web Applications
+	</header>
+	<nav style="text-align: center;">
+		I am a list of links for navigation. I can be part of the header or outside
+	</nav>
+	<article>
+		<h1>
+			This is what this page is about.
+		</h1>
+<form name="myform"
+		action="http://people.oregonstate.edu/~kotharim/read_form_input.php"
+		method="POST"
+		onsubmit="return verifyUsingJS">
+	<fieldset><legend>Your Details</legend>
+		<label>First Name: <input type="text" name="fname" id="fname" value="" placeholder="firstname"></label><br/>
+		<label for="lname">Last Name: </label><input type="text" name="lname" id="lname" value=""><br/>
+
+		<labe;>Sex: </label>&nbsp;&nbsp;
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male" value="male">&nbsp;&nbsp;
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female" value="female">&nbsp;&nbsp;
+		<label for="other">Other</label>
+		<input type="radio" name="gender" id="other" value="other">&nbsp;&nbsp;
+		<br/>
+		<label>Phone Area Code: <input type="text" id="area_code" name="area_code" pattern="[0-9]{3}" title="3 Digits Please"></label>
+		<br/>
+	</fieldset>
+	<input type="submit" />
+</form>
+
+	</article>
+	<footer style="text-align: center;background-color: red">
+		This is where some footer information should go.
+	</footer>
+</body>
+</html>

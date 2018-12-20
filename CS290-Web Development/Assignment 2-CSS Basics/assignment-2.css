@@ -1,0 +1,101 @@
+
+h1 {
+	text-align: left;
+	font-family: Arial;
+	letter-spacing: 2px;
+	color: white;
+}
+
+ul {
+	margin-top: 0px;
+	display: inline-block;
+	text-align: left;
+	list-style-image: url('bullet.png');
+}
+
+body {
+	background: url(https://image.freepik.com/free-photo/white-stone-texture_1194-5428.jpg);
+	background-repeat: round;
+}
+
+header {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	min-height: 150px;
+	text-align: center;
+	background: url('http://7summitsproject.com/wp-content/uploads/2016/02/banner-931.jpg') no-repeat center;
+	background-size: fill;
+
+
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	background-color: lavender;
+	font-color: white;
+	font-size: 150%;
+
+}
+
+#footerDiv {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	box-shadow: 10px 5px 5px grey;
+}
+
+#roundImage {
+	height: 50%;
+	width: 50%;
+	float: left;
+	border-radius: 5%;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	margin-right: 25px;
+	margin-top: 5%;
+	box-shadow: 5px 0px 5px 0px rgba(20, 20, 20, 0.5)
+}
+
+#firstP {
+	text-indent: 5%;
+	margin-top: 5%;
+
+}
+
+#list {
+	text-align: left;
+}
+
+#textBody {
+	top: 30px;
+	position: relative;
+	left: 0;
+	right: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: auto;
+	margin-bottom: 50px;
+	width: 75%;
+	min-height: 25%;
+	box-shadow: 10px 5px 5px rgba(20, 20, 20, 0.5);
+	border-style: double;
+	border-color: green;
+}
+
+
+
+.menulinks {
+	text-decoration: none;
+	color: black;
+	font-size: 150%;
+}
+
+
+.menulinks:hover {
+	background-color: black;
+	color: white;
+	max-height: 10px;
+}
