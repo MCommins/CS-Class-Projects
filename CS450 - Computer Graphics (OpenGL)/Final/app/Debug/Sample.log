@@ -1,0 +1,6 @@
+﻿  sample.cpp
+c:\users\michael\documents\school\cs 450\final\app\bmptotexture.cpp(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\michael\documents\school\cs 450\final\app\sample.cpp(390): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+sample.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Sample.vcxproj -> C:\Users\Michael\Documents\School\CS 450\Final\app\.\Debug\Sample.exe

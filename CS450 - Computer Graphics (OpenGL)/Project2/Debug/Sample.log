@@ -1,0 +1,11 @@
+﻿  sample.cpp
+c:\users\michael\documents\school\cs450\project2\sample.cpp(425): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\michael\documents\school\cs450\project2\sample.cpp(797): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs450\project2\sample.cpp(817): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\michael\documents\school\cs450\project2\sample.cpp(819): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\michael\documents\school\cs450\project2\sample.cpp(821): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\michael\documents\school\cs450\project2\sample.cpp(823): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+c:\users\michael\documents\school\cs450\project2\sample.cpp(1163): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs450\project2\sample.cpp(1227): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+sample.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Sample.vcxproj -> C:\Users\Michael\Documents\School\CS450\Project2\.\Debug\Sample.exe

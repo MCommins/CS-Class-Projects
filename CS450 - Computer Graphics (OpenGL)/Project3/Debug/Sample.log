@@ -1,0 +1,16 @@
+﻿  sample.cpp
+c:\users\michael\documents\school\cs 450\project3\bmptotexture.cpp(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\michael\documents\school\cs 450\project3\sample.cpp(1162): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs 450\project3\sample.cpp(1220): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs 450\project3\sample.cpp(1221): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs 450\project3\sample.cpp(1222): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs 450\project3\sample.cpp(1225): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs 450\project3\sample.cpp(1226): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs 450\project3\sample.cpp(1227): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs 450\project3\sample.cpp(1237): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs 450\project3\sample.cpp(1238): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs 450\project3\sample.cpp(1242): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\michael\documents\school\cs 450\project3\sample.cpp(1243): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+sample.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Sample.vcxproj -> C:\Users\Michael\Documents\School\CS 450\Project3\.\Debug\Sample.exe
